@@ -20,11 +20,11 @@ def batch_iterator(iterator, batch_size):
 
 # Define directory for sample file
 home_dir = os.getcwd()
-fastq2split_dir = home_dir + "/fastq2split"
-test_dir = fastq2split_dir + "/test"
+test_dir = home_dir + "/test"
 sample_file_path = test_dir + "/test.fastq"
-print("Configuring directories ...")
 test_output_dir = test_dir + "/output"
+
+print("Configuring directories ...")
 
 #Define Output Directory
 os.chdir(test_output_dir)
