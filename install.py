@@ -4,7 +4,7 @@ def sh(script):
     os.system(script)
 
 home = os.getcwd()
-fastq2split_dir = home + "/fastq2split"
+fastq2split_dir = home + "/Fastq2Chunks"
 extract_reads_dir = fastq2split_dir + "/paeruginosa-reads" 
 sh("mkdir fastq2split")
 os.chdir(fastq2split_dir)
