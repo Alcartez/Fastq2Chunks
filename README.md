@@ -1,6 +1,6 @@
 # Fastq2Chunks
 
-Only works in Linux , would be adding windows support soon
+Only works in Linux , would be adding windows support soon , fingers crossed.
 
 Requirements : 
 1. Unix/Linux system with bash support
